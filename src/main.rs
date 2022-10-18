@@ -1,10 +1,10 @@
 fn main() {
-    test(21);
-    println!("Hello, world!");
-    test(22);
+
+    let number = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("Hello, world!, number = {}", number);
 }
 
-fn test(x: i32) {
-    println!("test {}!", x);
-
-}
